@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+.clothing {
+    margin-top: 50px;
+}
+.clothing h2 {
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font: bold;
+}
+.shoes h2 {
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font: bold;
+}
+.shoes {
+    margin-top: 20px;
+}
+.nav ul a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.nav ul a:hover {
+    -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
+.nav ul {
+    justify-content: space-evenly;
+    display: flex;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a img {
+    width: 100px;
+    position: relative;
+    margin-left: 10px;
+    padding: 3px;
+}
+.womenholding img {
+    padding-top: 20px;
+    margin-left: 30px;
+}
