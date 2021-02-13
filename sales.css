@@ -1,3 +1,43 @@
 body {
     background-color: black;
 }
+.nav ul a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.nav ul a:hover {
+    -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
+.nav ul {
+    justify-content: space-evenly;
+    display: flex;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a img {
+    width: 100px;
+    position: relative;
+    margin-left: 10px;
+    padding: 3px;
+}
+.sports{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sports img {
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+    margin-top: 10px;
+}
+h4 {
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: large;
+    margin-top: 30px;
+}
